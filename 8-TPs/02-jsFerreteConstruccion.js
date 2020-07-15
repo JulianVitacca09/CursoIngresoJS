@@ -8,7 +8,7 @@ function Rectangulo ()
 {
     var largo;
     var ancho;
-    var cantidad;
+    var perimetro;
 //----------------
 
     largo = txtIdLargo.value;
@@ -17,9 +17,10 @@ function Rectangulo ()
     largo = parseInt(largo);
     ancho = parseInt(ancho);
 
-    cantidad = ((largo  + ancho )*3)
+    perimetro = ((largo  + ancho )*2)
+    perimetro = (perimetro * 3)
 
-    alert("Se tiene que comprar una cantidad de " + cantidad );
+    alert("Se tiene que comprar una cantidad de " + perimetro );
 }
 
 function Circulo () 
@@ -31,12 +32,32 @@ function Circulo ()
     radio = txtIdRadio.value;
     radio = parseInt(radio);
 
-    cantidad = radio * 3
+    cantidad = (radio / 6.28);  // 6.28 = 2π
+    cantidad = (cantidad * 3)
 
     alert("La cantidad de alambre a comprar es de " + cantidad);
 }
 
 function Materiales () 
 {
-	
+    var cemento = 2;
+    var cal = 3;
+    var largo;
+    var ancho;
+    var superficie;
+//----------------
+
+    largo = txtIdLargo.value;
+    ancho = txtIdAncho.value;
+
+    largo = parseInt(largo);
+    ancho = parseInt(ancho);
+
+    superficie = (ancho * largo);
+    
+    cemento = (superficie * cemento);
+    cal = (superficie * cal);
+
+
+    alert("Se deben comprar " + cemento + " bolsas de cemento y " + cal + " bolsas de cal");
 }
