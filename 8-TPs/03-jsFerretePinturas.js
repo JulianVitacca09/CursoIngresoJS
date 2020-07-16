@@ -13,7 +13,7 @@ function FahrenheitCentigrados ()
 
     gradosCentigrados = ((temperatura - 32) / 1.8);
 
-    alert("La temperatura en grados centigrados es de " + gradosCentigrados);
+    alert("La temperatura en grados centigrados es de " + gradosCentigrados.toFixed(2));
     
     
 }
@@ -29,5 +29,5 @@ function CentigradosFahrenheit ()
 
     gradosFahrenheit = ((temperatura * 1.8) + 32);
 
-    alert("La temperatura en grados fahrenheit es de " + gradosFahrenheit);
+    alert("La temperatura en grados fahrenheit es de " + gradosFahrenheit.toFixed(2));
 }
