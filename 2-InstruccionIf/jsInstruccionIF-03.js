@@ -12,4 +12,5 @@ function mostrar()
     else {
 		alert("Esa persona es menor de edad");
 	}
+	
 }//FIN DE LA FUNCIÓN

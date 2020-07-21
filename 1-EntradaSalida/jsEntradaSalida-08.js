@@ -20,6 +20,5 @@ function SacarResto()
     
 
 	
-	alert("El resto de la division es: " + resto);
-	
+	alert("El resto de la division es: " + resto);	
 }
