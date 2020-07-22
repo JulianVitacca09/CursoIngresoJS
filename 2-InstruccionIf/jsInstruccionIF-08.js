@@ -11,7 +11,8 @@ function mostrar()
 	edad = parseInt(edad);
 	civil = estadoCivil.value;
 	
-	if(edad >= 18 && civil == "Soltero"){
+	if(edad >= 18 && civil == "Soltero")
+	{
 		alert("Es soltero y no es menor")
 	}
 

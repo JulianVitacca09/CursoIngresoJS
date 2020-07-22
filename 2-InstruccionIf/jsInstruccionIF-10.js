@@ -11,7 +11,7 @@ function mostrar()
 	}
 	else
 	{
-		if(nota >= 4)
+	    if(nota >= 4)
 		{
 			alert("Su nota es: " + nota + " APROBO");
 		}
