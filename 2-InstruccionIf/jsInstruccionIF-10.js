@@ -5,19 +5,19 @@ function mostrar()
 	
 	nota = Math.floor(Math.random() * 10) + 1;
 
-	if(nota >= 9)
+	if(nota > 8)
 	{
-      alert("Su nota es: " + nota + " EXCELENTE");
+      alert("EXCELENTE");
 	}
 	else
 	{
-	    if(nota >= 4)
+	    if(nota > 3)
 		{
-			alert("Su nota es: " + nota + " APROBO");
+			alert("APROBO");
 		}
 		else
 		{
-			alert("Su nota es: " + nota + " VAMOS QUE SE PUEDE");
+			alert("VAMOS QUE SE PUEDE");
 		}
 	}
 }//FIN DE LA FUNCIÓN
