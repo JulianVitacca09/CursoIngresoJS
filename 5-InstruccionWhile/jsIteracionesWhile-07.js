@@ -32,3 +32,5 @@ function mostrar()
 	txtIdPromedio.value= promedio;
 
 }//FIN DE LA FUNCIÓN
+
+//https://onlinegdb.com/Hy09lokZv      el del profe.

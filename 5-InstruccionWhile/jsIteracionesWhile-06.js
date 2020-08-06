@@ -8,9 +8,6 @@ function mostrar()
 	i = 0;
 	acumulador = 0;
 
-	
-
-
 	while(i < 5)
 	{
 		numeroIngresado = prompt("Ingrese un numero");

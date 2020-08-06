@@ -127,3 +127,6 @@ function ComenzarIngreso ()
 	txtIdNacionalidad.value = nacionalidad;
 
 }
+
+//tolowercase
+//touppercase
